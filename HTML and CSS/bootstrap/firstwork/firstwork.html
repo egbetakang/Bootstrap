@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+</head>
+<body>
+	<h1 class="well well-lg">good morning</h1>
+	<button class="btn btn-danger">RED</button>
+	<div class="alert alert-success">SUCCESS! this is a success alert</div>
+	<div class="alert alert-danger">SUCCESS! this is a danger alert</div>
+	<div class="progress">
+		<!--.progress-bar-success
+           .progress-bar-info
+             .progress-bar-warning
+           .progress-bar-danger
+
+				           40% Complete (success)
+				50% Complete (info)
+				60% Complete (warning)
+				70% Complete (danger)
+				-->
+
+		<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+			<span class="sr-only">60% complete</span>
+			<!-- using the class sr-only, no value will print in the progress bar-->
+		</div>
+	</div>
+	<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+    40% Complete (success)
+  </div>
+</div>
+<div>
+	<ul class="pagination">
+		<li class="active"><a href="#">1</a></li>
+		<li class="disabled"><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+	</ul>
+</div>
+ <!-- PAGER : it is also a form of pagination.
+ 	pager provides previous and next buttons
+ 	to create previous/next buttons, add the .pager class to <ul> element -->
+ <div>
+ 	<ul class="pager">
+ 		<li class="previous"><a href="#">PREVious</a></li>
+ 		<li class="next"><a href="#">NEXT</a></li>
+ 	</ul>
+ </div>	
+ <div>
+ 	<ul class="list-group">
+	  <li class="list-group-item disabled">First item</li>
+	  <li class="list-group-item-success">Second item</li>
+	  <li class="list-group-item-danger">Third item</li>
+	   <li class="list-group-item-info">First item</li>
+	</ul>
+ </div>	
+ <div>
+ 	<div class="list-group">
+ 		<a href="#" class="list-group-item active">
+ 			<h4 class="list-group-item-header"> First list group item</h4>
+ 			<p class="list-group-item-text"> Lorem ipsum dolor sit amet, consectetur adipt esse
+ 			cillum.</p>
+ 		</a>
+ 		<a href="#" class="list-group-item active">
+ 			<h4 class="list-group-item-header"> First list group item</h4>
+ 			<p class="list-group-item-text"> Lorem ipsum dolor sit amet, consectetur adipt esse
+ 			cillum.</p>
+ 		</a>
+ 		<a href="#" class="list-group-item active">
+ 			<h4 class="list-group-item-header"> First list group item</h4>
+ 			<p class="list-group-item-text"> Lorem ipsum dolor sit amet, consectetur adipt esse
+ 			cillum.</p>
+ 		</a>
+ 	</div>
+ </div>
+
+</body>
+</html>

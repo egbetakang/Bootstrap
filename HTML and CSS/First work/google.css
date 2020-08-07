@@ -1,0 +1,153 @@
+.blue{
+	color: blue;
+}
+.red{
+	color:red;
+}
+.yellow{
+	color: yellow;
+}
+.green{
+	color: green;
+}
+body{
+	width: 100%;
+
+}
+.list{
+	margin-right:40%;
+	position: center;
+}
+.container{
+	margin-left: 20%;
+}
+.container1{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.cont{
+	margin-left: 40%;
+	margin-top: 5%;
+
+}
+.con{
+	margin-left: 10px;
+}
+input{
+	border-radius: 30px;
+}
+input:onclick{
+	width: 100%;
+}
+.img{
+	background-image: url('searchicon.png');
+	align-items: center;
+	width: 60%;
+	height: 30%;
+	padding: 12px 20px 12px 40px;
+	border:0.5px grey solid;
+	outline:0px;
+	align-items: center;
+
+	background-repeat:no-repeat;
+	background-size:;
+	margin-left: 9%;
+
+
+}
+header{
+	text-align: center;
+	font-size: 70px;
+	padding: 25px;
+}
+}
+select{
+	padding:16px;
+	border:0px;
+}
+
+button{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+footer{
+	position:fixed;
+	bottom:0px;
+	margin-top:19% ;
+	background-color: grey;
+	color:black;
+	/*width:justify;
+		/*background-color: grey;*/
+	width:100%;
+	padding-left: 80px;
+	padding-right:80px ;
+	text-align: center;
+
+}
+div>ul>li{
+	list-style-type: none;
+	background-color:#808060;
+	float: right;
+	border-radius: 10px;
+	padding: 6px;
+	margin-left:17px ;
+	margin-top: 10%
+	border: 1px solid grey;
+}
+
+li:hover{
+	border:1px solid grey;
+	background-color: green; 
+}
+
+.col-2 {width: 16.66%;}
+.row{
+	display: block;
+	clear: both;
+}div>nav>ul>li{
+	list-style-type: none;
+	float: right;
+	margin-left:5%;
+	margin-right: 13%;
+	color: white;
+
+}
+.int{
+	margin-bottom: 7%;
+	margin-top: 9%;
+}
+.yam{
+	margin-bottom: 15%;
+	margin-top:10%;
+}
+.left{
+	float: left;
+}
+hr{
+	color: grey;
+}
+.navlist{
+	float: right;
+
+}
+.navstyle{
+	border-radius: 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: black;
+}
+.face{
+	background-repeat: no-repeat;
+	background-image: url("face_replace.png");
+}
+li{
+	list-style-type: none;
+	color: 
+}
